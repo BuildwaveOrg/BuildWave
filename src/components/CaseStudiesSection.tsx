@@ -12,7 +12,7 @@ const caseStudies = [
 		school: 'Michel Okpara University of Agriculture, Umudike',
 		description:
 			'ML Based system using convolutional neural networks to identify and classify 10 different tomato leaf diseases in real-time for screening and treatment recommendations with real time LLM Chat integration',
-		image: '/public/Tomato plants with healthy and diseased leaves in an agricultural setting.png',
+		image: `${import.meta.env.BASE_URL}public/Tomato plants with healthy and diseased leaves in an agricultural setting.png`,
 		results: 'Achieved 92% accuracy in disease detection',
 		link: "https://tomatodetection.vercel.app",
 	},
@@ -23,7 +23,7 @@ const caseStudies = [
 		school: 'Micheal Okpara University of Agriculture, Umudike',
 		description:
 			'Text-to-speech application leveraging Groq PlayAITTS for high-quality, natural-sounding speech synthesis from text input',
-		image: '/public/tts.png',
+		image: `${import.meta.env.BASE_URL}public/tts.png`,
 		results: 'Up to 95% natural-sounding speech generation and 15 voices',
 		link: 'https://text-to-speech-mini-app.vercel.app/',
 	},
@@ -45,7 +45,7 @@ const caseStudies = [
 		school: 'University of Nigeria, Nsukka',
 		description:
 			'Blockchain-based messaging app ensuring secure end-to-end encryption using ICP technology for enhanced privacy and data integrity',
-		image: '/public/whisper.net.png',
+		image: `${import.meta.env.BASE_URL}public/whisper.net.png`,
 		results: 'Enhanced security with zero data breaches',
 		link: 'https://whisper-icp-net.vercel.app/',
 	},
@@ -56,7 +56,7 @@ const caseStudies = [
 		school: 'Micheal Okpara University of Agriculture, Umudike',
 		description:
 			'Internet of Things (IoT) based speech-to-text system for the hearing impaired, enabling real-time transcription of spoken language',
-		image: '/public/STT.jpeg',
+		image: `${import.meta.env.BASE_URL}public/STT.jpeg`,
 		results: 'Real-time transcription with 90% accuracy',
 		link: 'https://speech-to-text-for-hearing.vercel.app/',
 	},
@@ -67,7 +67,7 @@ const caseStudies = [
 		school: 'Micheal Okpara University of Agriculture, Umudike',
 		description:
 			'Custom laser-cutting built robotic arm with precise control and programmable movements for educational and research purposes',
-		image: '/public/DIYrobot.jpeg',
+		image: `${import.meta.env.BASE_URL}public/DIYrobot.jpeg`,
 		results: 'Achieved 95% precision in movement tasks',
 	},
 	{
@@ -77,7 +77,7 @@ const caseStudies = [
 		school: 'Micheal Okpara University of Agriculture, Umudike',
 		description:
 			'Internet of Things (IoT) based smart locker system for secure and efficient parcel delivery with real-time tracking and notification',
-		image: '/public/SMl.jpeg',
+		image: `${import.meta.env.BASE_URL}public/SMl.jpeg`,
 		results: 'Enhanced security with 99% delivery accuracy',
 		link: 'https://iot-smart-locker.vercel.app/',
 	},
@@ -88,7 +88,7 @@ const caseStudies = [
 		school: 'Micheal Okpara University of Agriculture, Umudike',
 		description:
 			'Voice-controlled home automation system using Arduino for smart home management',
-		image: '/public/VAHA.jpeg',
+		image: `${import.meta.env.BASE_URL}public/VAHA.jpeg`,
 		results: 'Achieved 90% accuracy in voice commands',
 	},
 	{
@@ -98,7 +98,7 @@ const caseStudies = [
 		school: 'Micheal Okpara University of Agriculture, Umudike',
 		description:
 			'An anti-sleep alarm system for drivers using eye-tracking technology to monitor alertness and prevent accidents',
-		image: '/public/ASA.jpeg',
+		image: `${import.meta.env.BASE_URL}public/ASA.jpeg`,
 		results: 'Reduced drowsiness-related incidents by 80%',
 	}
 ];
