@@ -24,7 +24,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/BuildWave/">
           <WhatsappChat />
           <Routes>
             <Route path="/" element={<Index />} />
