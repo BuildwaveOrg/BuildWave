@@ -35,7 +35,7 @@ export const Footer = ({ onGetStarted, onTrackProject }: FooterProps) => {
           <div className="space-y-4">
             <Link to="/#" className="flex items-center gap-2">
               <img
-                src="/logomain.png"
+                src="/public/logomain.png"
                 alt="BuildWave logo"
                 className="h-16 w-auto object-contain"
               />

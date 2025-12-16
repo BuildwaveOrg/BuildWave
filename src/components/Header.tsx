@@ -32,7 +32,7 @@ export const Header = ({ onTrackProject, onGetStarted }: HeaderProps) => {
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <a href="/" className="flex items-center gap-2">
           <img 
-          src="/logomain.png" 
+          src="/public/logomain.png" 
           alt="BuildWave logo" 
           className="h-10 md:h-14 w-auto object-contain"
         />
